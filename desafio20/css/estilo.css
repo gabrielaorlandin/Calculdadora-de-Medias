@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  h1 {
+    color: #333;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .input-container label {
+    margin-right: 10px;
+  }
+
+  input[type="number"] {
+    padding: 5px;
+    width: 150px;
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .resultado {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  .aprovado {
+    color: green;
+  }
+
+  .reprovado {
+    color: red;
+  }
